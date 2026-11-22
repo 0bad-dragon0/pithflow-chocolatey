@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Chocolatey community package for Pithflow. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>pithflow</id>
+    <version>1.47.0</version>
+    <title>Pithflow</title>
+    <authors>Pithflow</authors>
+    <owners>pithflow</owners>
+    <projectUrl>https://pithflow.com/</projectUrl>
+    <packageSourceUrl>https://github.com/0bad-dragon0/pithflow-chocolatey</packageSourceUrl>
+    <iconUrl>https://pithflow.com/favicon.png</iconUrl>
+    <licenseUrl>https://pithflow.com/terms/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://pithflow.com/faq/</docsUrl>
+    <tags>pithflow dictation speech-to-text voice-typing transcription ai productivity accessibility citrix rdp bilingual spanish</tags>
+    <summary>AI voice dictation for Windows: hold a hotkey, speak, release, and clean text lands in any app.</summary>
+    <description><![CDATA[Pithflow is AI voice dictation for Windows (also available for Mac and iPhone, with an Android keyboard in beta).
+
+Hold a hotkey (Ctrl+Space by default), speak naturally and release. Pithflow removes filler words, fixes punctuation, applies the tone you choose and puts the finished text into whatever app has focus: Outlook, Word, Slack, Teams, a browser, an IDE or a terminal. No per-app integrations.
+
+## Features
+- Works inside remote desktops (RDP, Citrix, VDI): audio is captured on your own PC, so nothing has to be installed inside the remote session.
+- Bilingual English and Spanish, including switching languages mid-sentence; 100+ languages detected automatically.
+- Personal dictionary, snippets and specialty term packs (medical, legal, engineering and more).
+- Meetings: records a call or an in-person meeting with no bot joining, then writes up key points, decisions and action items.
+
+## Notes
+- Pithflow is cloud-based and needs an internet connection; there is no offline mode. Audio is discarded after transcription and never stored on Pithflow's servers.
+- A free account is required. The free plan is 2,000 words a week with no card; Pro is US$9.99/month or US$99/year; Team is US$45/month for up to 5 seats.
+- The installer is Authenticode-signed (publisher: Jesus Zamudio Parra).
+- Pithflow updates itself when a new version is out; this package installs the version listed above.
+]]></description>
+    <releaseNotes>Pithflow now speaks French, German, Portuguese and Japanese: it follows your Windows language, or pick one in Settings. Sign in faster with separate Continue with Google, Microsoft and Apple buttons. The flow bar, tray menu and error messages follow your language too.</releaseNotes>
+    <copyright>© 2026 Pithflow</copyright>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
